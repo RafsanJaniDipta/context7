@@ -187,3 +187,12 @@ src/test/questions*
 
 # mcpb bundles are built in CI and attached to GitHub releases
 *.mcpb
+
+# Environment variables & secrets (added by GitHub Guardian)
+.env.*
+*.env
+!.env.example
+!.env.sample
+.envrc
+.venv/
+venv/
